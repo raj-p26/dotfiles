@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "n",
+    "command": "explorer.newFile",
+    "when": "!inputFocus && filesExplorerFocus"
+  },
+  {
+    "key": "d",
+    "command": "explorer.newFolder",
+    "when": "!inputFocus && filesExplorerFocus"
+  },
+  {
+    "key": "shift+d",
+    "command": "deleteFile",
+    "when": "!inputFocus && filesExplorerFocus"
+  }
+]
