@@ -3,7 +3,7 @@ Xft.antialias:  1
 Xft.hinting:    1
 Xft.hintstyle:  hintmedium
 URxvt*depth: 32
-URxvt.font:            xft:FiraCode Nerd Font:size=18
+URxvt.font:            xft:FiraCode Nerd Font Mono:size=18, xft:FontAwesome:size=6
 URxvt.scrollBar_right: false
 URxvt.scrollBar:       false
 URxvt.transparent:     false
@@ -36,7 +36,6 @@ URxvt*color15:    #EEEEEC
 URxvt.keysym.C-minus:  resize-font:smaller
 URxvt.keysym.C-equal:  resize-font:bigger
 URxvt.keysym.C-0:      resize-font:reset
-URxvt.keysym.C-l:      command:\033c
 
 URxvt.perl-ext-common: default, eval
 
